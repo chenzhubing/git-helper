@@ -1,12 +1,14 @@
-1.Á¬½ÓÔ¶³Ì²Ö¿â:ÕâÀïÊ¹ÓÃssh key  ²»ÓÃÃ¿´Î¶¼ÊäÈëÓÃ»§Ãû£¬ÃÜÂë
+1.è¿æ¥è¿œç¨‹ä»“åº“:è¿™é‡Œä½¿ç”¨ssh key  ä¸ç”¨æ¯æ¬¡éƒ½è¾“å…¥ç”¨æˆ·åï¼Œå¯†ç 
 git remote add origin git@github.com:chenzhubing/XXX.git
 
-2.ÏÂÔØgithubÉÏÓĞÒ»¸öREADME.md
+2.ä¸‹è½½githubä¸Šæœ‰ä¸€ä¸ªREADME.md
 git pull --rebase origin master
 
-3.ÉÏ´«´úÂëµ½Ô¶³Ì²Ö¿â
+3.ä¸Šä¼ ä»£ç åˆ°è¿œç¨‹ä»“åº“
 git push -u origin master
 
+æŸ¥çœ‹è¿œç¨‹ä»“åº“
+git remote -v
 
-É¾³ıÔ¶³Ì²Ö¿â
+åˆ é™¤è¿œç¨‹ä»“åº“
 git remote rm origin
