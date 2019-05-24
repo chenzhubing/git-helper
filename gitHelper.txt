@@ -1,0 +1,12 @@
+1.连接远程仓库:这里使用ssh key  不用每次都输入用户名，密码
+git remote add origin git@github.com:chenzhubing/XXX.git
+
+2.下载github上有一个README.md
+git pull --rebase origin master
+
+3.上传代码到远程仓库
+git push -u origin master
+
+
+删除远程仓库
+git remote rm origin
